@@ -1,6 +1,6 @@
 # About The Project
 
-[![Alt text](https://img.youtube.com/vi/ffL7IscVYuo/0.jpg)](https://www.youtube.com/watch?v=ffL7IscVYuo)
+[![CHECK DEMO HERE](https://img.youtube.com/vi/ffL7IscVYuo/0.jpg)](https://www.youtube.com/watch?v=ffL7IscVYuo)
 
 
 # Crop Recommendation System
