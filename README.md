@@ -1,6 +1,8 @@
-<<<<<<< HEAD
 # About The Project
-=======
+
+[![Alt text](https://img.youtube.com/vi/ffL7IscVYuo/0.jpg)](https://www.youtube.com/watch?v=ffL7IscVYuo)
+
+
 # Crop Recommendation System
 
 The Crop Recommendation System is an application designed to provide personalized crop recommendations based on various input parameters and data analysis. It helps farmers and agricultural enthusiasts make informed decisions about which crops to cultivate, taking into account factors such as soil characteristics, climate conditions, and historical yield data.
