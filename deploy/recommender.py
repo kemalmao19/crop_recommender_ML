@@ -47,19 +47,17 @@ if __name__ == "__main__":
     warnings.filterwarnings("ignore")
 
     path_data = "/Users/kemalmao/crop_recommender_ML/dataset/Crop_recommendation.csv"
-    path_current = input("input the data path: ")
-    current_data = pd.read_csv(
-        path_current
-    )  # "/home/kemal/Documents/project/deploy/test.csv"
 
-    data = readFile(path_data)
-    X, y = xySplitter(data)
+    current_data = pd.read_csv(
+        input("input the data path: ")
+    )  
+
+    X, y = xySplitter(readFile(path_data))
     encoder = LabelEncoder()
     y = encoder.fit_transform(y)
     X_train, X_test, y_train, y_test = trainTest(X, y)
 
-    model = LogisticRegression()
-    trained_model = modeling(model, X_train, y_train)
+    trained_model = modeling(LogisticRegression(), X_train, y_train)
 
     print("=" * 60)
     print(current_data)
